@@ -1,0 +1,57 @@
+ulong magic;  // or identifier and version, maybe
+uint u2;      // 42 (0x2A)  - count of values in the first block?
+uint u3;      // 176 (0xB0) - the size of the first block without magic bytes
+uint u4;      // 0x50585473 ("sTXP") - another identifier?
+uint u5;      // 42 (0x2A)  - count of values in the second block?
+uint[u2] u6;  // from 6 to 47, size=0xA8 (168)
+uint u7;      // 0x10631C (1073948) - offset for .SCN? real offset += 0xC7
+uint u8;      // const 0x4E435300 (".SCN") - another identifier?
+uint u9;      // const 1 - might be a version or blocks count
+uint u10;     // const 0x20051221 (537203233) - might be a size or checksum or offset
+uint u11;     // const 1
+uint u12;     // const 0x53444400 (".DDS") - another identifier?
+uint u13;     // 0x92B35 (600885) - is that a size or offset?
+uint u14;     // num values?
+uint[u5] u15; // from 0 to 41
+uint u16;     // 0x92A81 (600705) - is that a size or offset?
+uint u17;     // materials count
+// also can be read as 100 uints - header size is 0x190 (400 bytes)
+
+// materials (or something like that?) data
+for (int i = 0; i < u17; i++)
+{
+  // for 38 elements total size is 0x2BE8 (11240)
+}
+// ----------------------------------------
+
+// geometry data
+uint u18;     // blocks count if stream is mesh or compressed size if stream is texture
+byte[] compressed_stream; // zlib-compressed, size=0x71537, start=0x2D7C
+// -------------
+
+uint u19;     // 0x26 (38) - the size of the data in the next blocks
+[block, size=0x39, start=0x742B7]
+byte nameLength;
+byte[] name; // might be "lightmap", "vertexlight", "doublesided", "svetofor", etc.
+byte[u19] data;
+[/block]
+
+// ======================================================================================
+
+// data after last compressed stream:
+uint unk1;
+uint unk2;
+
+[block, size=0x4C, start=0x1FC958] // magic "NL2D" (0x44324C4E)
+float[16] unk1; // matrix 4x4? data: 1-1-1-1, 1-1-1-1, 1-1-1-1, 1-0-1-0
+uint unk2; // 4
+uint unk3; // 4
+uint unk4; // 0x444E4500 (".END")
+[/block]
+
+// notes:
+// each file has 2 mesh streams
+// and 2 or more textures (usually in DXT5)
+// 2 mesh streams has the same file size
+// but the content in their data block is slightly different
+

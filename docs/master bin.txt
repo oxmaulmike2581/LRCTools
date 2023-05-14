@@ -1,0 +1,28 @@
+ulong magic;
+uint u2;
+uint u3;
+uint type;
+uint strLength1;
+byte[] str1;
+byte[] pad;
+uint numVals;
+uint[] vals;
+uint u4;
+uint magic2; // STRM
+uint strLength2;
+byte[] str2;
+byte[] u5; // "blk "
+byte[] u6; // ".1.1" - version?
+uint u7; // size? 0x2267
+uint u8; // 0x7
+
+for count do:
+  ushort length;
+  byte[] str;
+
+uint filesCount;
+
+for count2 do:
+  ushort length;
+  byte[] str;
+

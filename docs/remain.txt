@@ -1,0 +1,2 @@
+moscow.stat.bin
+master.bin

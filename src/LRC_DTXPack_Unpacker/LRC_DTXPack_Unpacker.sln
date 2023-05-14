@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LRC_DTXPack_Unpacker", "LRC_DTXPack_Unpacker\LRC_DTXPack_Unpacker.csproj", "{1835CE66-BC44-40BA-AE1F-435C07637C7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1835CE66-BC44-40BA-AE1F-435C07637C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1835CE66-BC44-40BA-AE1F-435C07637C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1835CE66-BC44-40BA-AE1F-435C07637C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1835CE66-BC44-40BA-AE1F-435C07637C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55E42E23-B808-4F0D-B8A2-8C8A9917715C}
+	EndGlobalSection
+EndGlobal

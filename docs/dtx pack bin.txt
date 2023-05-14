@@ -1,0 +1,32 @@
+uint u1; // 44 54 42 50, ID
+uint u2; // 31 31 31 32, unknown
+uint u3; // textures count
+uint u4; // size of data1 block
+
+// data1 block store an unknown data
+// looks like this is a offsets that should be skipped while reading the file
+byte[] data1;
+
+// data2 block store a texture entry list
+for texCount do:
+  uint stride;
+  uint offset;
+  uint size;
+  uint padding;
+
+// data3 block store a list of texture names
+uint u5; // size of data3
+byte[] data3;
+
+// data4 block store an unknown data
+for texCount*4 do:
+  uint u6;
+
+// data5 block store the textures
+for texCount do:
+  byte[] texture;
+
+// some data at the end of the file
+// seems to be a version and identifier?
+uint u7; // 04 00 00 00
+uint u8; // TEX.

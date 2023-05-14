@@ -1,0 +1,98 @@
+// material - simple
+byte u18;    // name length
+byte[] u19;  // name
+float u20;   // 0.8 - ambient color?
+float u21;   // 0.8 - diffuse color?
+float u22;   // 0.8 - specular color?
+float[] u23; // 1, 0, 0, 0
+float[] u24; // 1, 0, 0, 0
+float[] u25; // 1, 0, 0, 0
+float[] u26; // 1, 0
+uint u27;    // 0
+uint[] u28;  // 7x 0xFFFFFFFF, size=0x1C (28 bytes)
+uint[] u29;  // 8x 0x0
+uint u30;    // 262144 - size of texture?
+uint u31;    // 257
+uint u32;    // 768
+uint[] u33;  // 12x 0x0
+byte u34;    // 0
+//
+
+// material - modulate_2tex_2x
+byte u35;    // name length
+byte[] u36;  // name
+float u37;   // 1
+float u38;   // 1
+float u39;   // 1
+float[] u40; // 1, 0, 0, 0
+float[] u41; // 1, 0, 0, 0
+float[] u42; // 1, 0, 0, 0
+float[] u43; // 1, 0
+uint u44;    // 1
+uint u45;    // 2
+uint[] u46;  // 6x 0xFFFFFFFF, size=0x18 (24 bytes)
+uint[] u47;  // 8x 0x0
+uint u48; // 262144
+uint u49; // 257
+uint u50; // 768
+uint[] u51; // 12x 0x0
+byte u52; // 0
+//
+
+// mat tab:
+[1] off=190, size=C8 (200 bytes) - simple
+[2] off=258, size=C8
+[3] off=320, size=C8
+[4] off=3E8, size=C8
+[5] off=4B0, size=D2 (210 bytes) - modulate_2tex_2x
+[6] off=582, size=D2
+[7] off=654, size=D2
+[8] off=726, size=C8
+[9] off=7EE, size=C8
+[10] off=8B6, size=C8
+[11] off=97E, size=C8
+[12] off=A46, size=C8
+[13] off=B0E, size=C8
+[14] off=BD6, size=C8
+[15] off=C9E, size=C8
+[16] off=D66, size=C8
+[17] off=E2E, size=C8
+[18] off=EF6, size=C8
+[19] off=FBE, size=C8
+[20] off=1086, size=C8
+[21] off=114E, size=C8
+[22] off=1216, size=C8
+[23] off=12DE, size=C8
+[24] off=13A6, size=C8
+[25] off=146E, size=C8
+[26] off=1536, size=C8
+[27] off=15FE, size=C8
+[28] off=16C6, size=C8
+[29] off=178E, size=C8
+[30] off=1856, size=C8
+[31] off=191E, size=C8
+[32] off=19E6, size=C8
+[33] off=1AAE, size=C8
+[34] off=1B76, size=C8
+[35] off=1C3E, size=C8
+[36] off=1D06, size=C8
+[37] off=1DCE, size=C8
+[38] off=1E96, size=C8
+[39] off=1F5E, size=C8
+[40] off=2026, size=C8
+[41] off=20EE, size=C8
+[42] off=21B6, size=C8
+[43] off=227E, size=C8
+[44] off=2346, size=D2
+[45] off=2418, size=C8
+[46] off=24E0, size=C8
+[47] off=25A8, size=C8
+[48] off=2670, size=C8
+[49] off=2738, size=C8
+[50] off=2800, size=C8
+[51] off=28C8, size=C8
+[52] off=2990, size=C8
+[53] off=2A58, size=C8
+[54] off=2B20, size=C8
+[55] off=2BE8, size=C8
+[56] off=2CB0, size=C8

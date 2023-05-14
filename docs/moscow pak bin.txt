@@ -1,0 +1,12 @@
+// fileheader
+uint magic;
+uint strLevSize;
+uint filesCount;
+uint blockSize;
+
+// DBLD1113 blocks (*.strlev.bin)
+// the last entry does not have nameEndOffset value
+for filesCount do:
+  uint offset;
+  uint size;
+  uint nameEndOffset;

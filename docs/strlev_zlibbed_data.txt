@@ -1,0 +1,298 @@
+
+// ===========================================
+// = 00002d7c.dat from frunza_001.strlev.bin =
+// ===========================================
+
+// 13 headers
+// 26 byte arrays
+// 39 unknown uint values
+
+uint u1  = 275996; // the size of data1
+byte[] data1;      // size=0x4361C, start=0x
+uint u2  = 17517;  // u2*2 is the size of data2
+byte[] data2;      // size=0x88DA,  start=0x
+uint u3  = 9857;   // unknown
+
+[block=1, size=0x34, start=0x4BF02]
+uint u1  = 5839;
+uint u2  = 28;
+uint u3  = 7;
+uint u4  = 3;      // count of 3-uint blocks
+uint u5  = 131072;
+uint u6  = 0;
+uint u7  = 0;
+uint u8  = 65536;
+uint u9  = 3;
+uint u10 = 0;
+uint u11 = 65536;
+uint u12 = 3;
+uint u13 = 1;
+[/block]
+
+uint u4  = 18900;
+byte[] data3;      // size=0x49D4, start=0x
+uint u5  = 1497;
+byte[] data4;      // size=0xBB2,  start=0x
+uint u6  = 525;
+
+[block=2, size=0x44, start=0x514C8]
+uint u1  = 499;
+uint u2  = 36;
+uint u3  = 4;
+uint u4  = 4;
+uint u5  = 131072;
+uint u6  = 0;
+uint u7  = 0;
+uint u8  = 65536;
+uint u9  = 3;
+uint u10 = 0;
+uint u11 = 65536;
+uint u12 = 3;
+uint u13 = 1;
+uint u14 = 65536;
+uint u15 = 3;
+uint u16 = 2;
+[/block]
+
+uint u7  = 19536;
+byte[] data5;      // size=0x4C50, start=0x
+uint u8  = 1497;
+byte[] data6;      // size=0xBB2,  start=0x
+uint u9  = 814;
+
+[block=3, size=0x34, start=0x56D16]
+uint u1  = 499;
+uint u2  = 24;
+uint u3  = 6;
+uint u4  = 3;
+uint u5  = 131072;
+uint u6  = 0;
+uint u7  = 0;
+uint u8  = 262144;
+uint u9  = 2;
+uint u10 = 0;
+uint u11 = 65536;
+uint u12 = 3;
+uint u13 = 0;
+[/block]
+
+uint u10 = 303360;
+byte[] data7;      // size=0x4A100, start=0x
+uint u11 = 22260;
+byte[] data8;      // size=0xADE8,  start=0x
+uint u12 = 12640;
+
+[block=4, size=0x34, start=0xABC3E]
+uint u1  = 7420;
+uint u2  = 24;
+uint u3  = 45;
+uint u4  = 3;
+uint u5  = 131072;
+uint u6  = 0;
+uint u7  = 0;
+uint u8  = 262144;
+uint u9  = 2;
+uint u10 = 0;
+uint u11 = 65536;
+uint u12 = 3;
+uint u13 = 0;
+[/block]
+
+uint u13 = 74016;
+byte[] data9;      // size=0x12120, start=0x
+uint u14 = 1416;
+byte[] data10;     // size=0xB10,   start=0x
+uint u15 = 3084;
+
+[block=5, size=0x34, start=0xBE8AE]
+uint u1  = 472;
+uint u2  = 24;
+uint u3  = 2;
+uint u4  = 3;
+uint u5  = 131072;
+uint u6  = 0;
+uint u7  = 0;
+uint u8  = 262144;
+uint u9  = 2;
+uint u10 = 0;
+uint u11 = 65536;
+uint u12 = 3;
+uint u13 = 0;
+[/block]
+
+uint u16 = 27360;
+byte[] data11;     // size=0x6AE0, start=0x
+uint u17 = 1380;
+byte[] data12;     // size=0xAC8,  start=0x
+uint u18 = 1140;
+
+[block=6, size=0x34, start=0xC5E96]
+uint u1  = 460;
+uint u2  = 24;
+uint u3  = 2;
+uint u4  = 3;
+uint u5  = 131072;
+uint u6  = 0;
+uint u7  = 0;
+uint u8  = 262144;
+uint u9  = 2;
+uint u10 = 0;
+uint u11 = 65536;
+uint u12 = 3;
+uint u13 = 0;
+[/block]
+
+uint u19 = 26352;
+byte[] data13;     // size=0x66F0, start=0x
+uint u20 = 1407;
+byte[] data14;     // size=0xAFE,  start=0x
+uint u21 = 1098;
+
+[block=7, size=0x34, start=0xCD0C4]
+uint u1  = 469;
+uint u2  = 24;
+uint u3  = 2;
+uint u4  = 3;
+uint u5  = 131072;
+uint u6  = 0;
+uint u7  = 0;
+uint u8  = 262144;
+uint u9  = 2;
+uint u10 = 0;
+uint u11 = 65536;
+uint u12 = 3;
+uint u13 = 0;
+[/block]
+
+uint u22 = 27864;
+byte[] data15;     // size=0x6CD8, start=0x
+uint u23 = 1452;
+byte[] data16;     // size=0xB58,  start=0x
+uint u24 = 1161;
+
+[block=8, size=0x34, start=0xD4934]
+uint u1  = 484;
+uint u2  = 24;
+uint u3  = 2;
+uint u4  = 3;
+uint u5  = 131072;
+uint u6  = 0;
+uint u7  = 0;
+uint u8  = 262144;
+uint u9  = 2;
+uint u10 = 0;
+uint u11 = 65536;
+uint u12 = 3;
+uint u13 = 0;
+[/block]
+
+uint u25 = 11856;
+byte[] data17;     // size=0x2E50, start=0x
+uint u26 = 1452;
+byte[] data18;     // size=0xB58,  start=0x
+uint u27 = 494;
+
+[block=9, size=0x34, start=0xD831C]
+uint u1  = 484;
+uint u2  = 24;
+uint u3  = 2;
+uint u4  = 3;
+uint u5  = 131072;
+uint u6  = 0;
+uint u7  = 0;
+uint u8  = 262144;
+uint u9  = 2;
+uint u10 = 0;
+uint u11 = 65536;
+uint u12 = 3;
+uint u13 = 0;
+[/block]
+
+uint u28 = 12480;
+byte[] data19;     // size=0x30C0, start=0x
+uint u29 = 1398;
+byte[] data20;     // size=0xAEC,  start=0x
+uint u30 = 520;
+
+[block=10, size=0x34, start=0xDBF08]
+uint u1  = 466;
+uint u2  = 24;
+uint u3  = 2;
+uint u4  = 3;
+uint u5  = 131072;
+uint u6  = 0;
+uint u7  = 0;
+uint u8  = 262144;
+uint u9  = 2;
+uint u10 = 0;
+uint u11 = 65536;
+uint u12 = 3;
+uint u13 = 0;
+[/block]
+
+uint u31 = 19248;
+byte[] data21;     // size=0x4B30, start=0x
+uint u32 = 1470;
+byte[] data22;     // size=0xB7C,  start=0x
+uint u33 = 802;
+
+[block=11, size=0x34, start=0xE15F4]
+uint u1  = 490;
+uint u2  = 24;
+uint u3  = 2;
+uint u4  = 3;
+uint u5  = 131072;
+uint u6  = 0;
+uint u7  = 0;
+uint u8  = 262144;
+uint u9  = 2;
+uint u10 = 0;
+uint u11 = 65536;
+uint u12 = 3;
+uint u13 = 0;
+[/block]
+
+uint u34 = 19968;
+byte[] data23;     // size=0x4E00, start=0x
+uint u35 = 1380;
+byte[] data24;     // size=0xAC8,  start=0x
+uint u36 = 832;
+
+[block=12, size=0x34, start=0xE6EFC]
+uint u1  = 460;
+uint u2  = 24;
+uint u3  = 2;
+uint u4  = 3;
+uint u5  = 131072;
+uint u6  = 0;
+uint u7  = 0;
+uint u8  = 262144;
+uint u9  = 2;
+uint u10 = 0;
+uint u11 = 65536;
+uint u12 = 3;
+uint u13 = 0;
+[/block]
+
+uint u37 = 27384;
+byte[] data25;     // size=0x6AF8, start=0x
+uint u38 = 1428;
+byte[] data26;     // size=0xB28,  start=0x
+uint u39 = 1141;
+
+[block=13, size=0x34, start=0xEE558]
+uint u1  = 476;
+uint u2  = 24;
+uint u3  = 2;
+uint u4  = 3;
+uint u5  = 131072;
+uint u6  = 0;
+uint u7  = 0;
+uint u8  = 262144;
+uint u9  = 2;
+uint u10 = 0;
+uint u11 = 65536;
+uint u12 = 3;
+uint u13 = 0;
+[/block]
+
